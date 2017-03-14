@@ -1,0 +1,52 @@
+body{
+	margin:0;
+
+}
+
+#titrePage{
+	height: 70px;
+}
+
+#menuGauche{
+	position: fixed;
+	height: 100%;
+	width:275px;
+	background-color: #939393;
+	text-align: center;
+}
+
+#menuPrincipal{
+	list-style-type: none;
+	border-width: 0;
+	padding-top: 1px; 
+	padding-left: 7px;
+	padding-right: 7px;
+	height: 65%;
+	background-color: green;
+	margin-top: 20px;
+}
+
+a{
+	margin-top: 20px;
+	padding-top: 10px;
+	height: 45px; 
+	width: 100%;
+	background-color: blue;
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+#social img{
+	height: 40px;
+}
+
+#pied{
+	position: absolute;
+	bottom: 0;
+}
+
+#main{
+	margin-left: 285px;
+	font-size: 30px;
+}
