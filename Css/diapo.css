@@ -1,0 +1,16 @@
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+
+a[class="left carousel-control"] {
+  height: auto;
+  margin: auto;
+}
+a[class="right carousel-control"] {
+  height: auto;
+    margin: auto;
+}
