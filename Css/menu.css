@@ -1,0 +1,36 @@
+@media screen and (max-height: 1080px) {
+
+#menuGauche{
+	position: fixed;
+	height: 100%;
+	width:20vw;
+	background-color: #a4bca4;
+	text-align: center;
+
+}
+#menuPrincipal li{
+height: 10vh;
+}
+
+
+
+#menuPrincipal li a{
+	margin-top: 20px;
+	padding-top: 10px;
+  font-size: 2em;
+	width: 100%;
+  font-family: 'Bad Script', cursive;
+	display: block;
+	text-decoration: none;
+  color: #3d2e27;
+}
+#menuPrincipal li a:hover{
+  color: #21130d;
+  text-decoration: underline;
+}
+#logo img{
+  width: 15vh;
+  height: 16vh;
+  padding-top: 3vh;
+
+}
