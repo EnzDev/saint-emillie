@@ -1,0 +1,20 @@
+#prix{
+   height: 30vh;
+   max-height: 150px;
+   background-image: url("../Img/bg.jpeg");
+  background-repeat: repeat;
+  padding-top: 5vh;
+
+}
+
+#prixBox{
+   height: 10vh;
+    max-height: 100px;
+   max-height: 80px;
+   background-color: #c5cccc;
+
+   width: 60vw;
+   margin-left: 10vw;
+
+
+}
