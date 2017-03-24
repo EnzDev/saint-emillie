@@ -1,0 +1,15 @@
+#contactWrapper{
+  background-color:#B5AC9D;
+  text-align: left;
+  height:30vh;
+}
+#map{
+  width: 25vh;
+  float: left;
+  height: 25vh;
+  margin: 2.5vh;
+}
+#coordonnees{
+  width: auto;
+  margin: auto;
+}

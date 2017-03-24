@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="../Css/Style.css">
 	<link rel="stylesheet" type="text/css" href="../Css/menu.css">
 	<link rel="stylesheet" type="text/css" href="../Css/diapo.css">
+	<link rel="stylesheet" type="text/css" href="../Css/map.css">
 		<link rel="stylesheet" type="text/css" href="../Css/prix.css">
 				<link rel="stylesheet" type="text/css" href="../Css/images.css">
 	<link rel="stylesheet" media="screen and (max-width: 800px)" href="../Css/Responsive.css" type="text/css" />
@@ -129,12 +130,41 @@
 
 
 	<section id="contact">
-		<div >
-			Claire et Luc Minot <br>
-			Chateau Sainte-Emilie 44290 Conquereuil.<br>
-			Tel: 02 40 79 75 50 / 06 08 22 56 25<br>
-			E.mail : luc-minot@wanadoo.fr
+		<div id="contactWrapper">
+			<div id="map">
+			</div>
+			<div id="coordonnees" >
+				Claire et Luc Minot <br>
+				Chateau Sainte-Emilie 44290 Conquereuil.<br>
+				Tel: 02 40 79 75 50 / 06 08 22 56 25<br>
+				E.mail : luc-minot@wanadoo.fr
+			</div>
 		</div>
+
+	</section>
+</div>
+
+	<script type="text/javascript">
+	       function initMap(){
+					var myLatLng = {lat: 47.6523237, lng: -1.7912815};
+
+	        var mapProp= {
+	            center:myLatLng,
+	            zoom:8,
+	          };
+	          map=new google.maps.Map(document.getElementById("map"),mapProp);
+
+					var marker = new google.maps.Marker({
+					position: myLatLng,
+					map: map,
+					title: 'Saint Emilie'
+					});
+
+				}
+
+	  </script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLkPQqfXVFkNptERzCMyj0OSZzbQWm8Hc&callback=initMap"></script>
+
 
 
 
