@@ -1,4 +1,4 @@
-@media screen and (max-height: 1080px) {
+@media screen and (max-height: 1080px) and (max-width: 1080px)  {
 
 #menuGauche{
 	position: fixed;
@@ -6,6 +6,7 @@
 	width:20vw;
 	background-color: #a4bca4;
 	text-align: center;
+	box-shadow: 1px 15px 10px #7c6653;
 
 }
 #menuPrincipal li{
@@ -68,6 +69,7 @@ transition: .25s linear;
 		top: 0px;
 		background-color: #a4bca4;
 		text-align: center;
+	
 
 	}
 

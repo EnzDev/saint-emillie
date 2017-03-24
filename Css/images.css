@@ -1,0 +1,22 @@
+#cheval, #dej{
+  width: 35vw;
+}
+
+#cheval{
+	margin-left: 7vw;
+}
+#dej{
+	margin-left: 37vw;
+}
+
+#velo{
+	margin-left: 10vw;
+  width: 60vw;
+}
+.image_flottante div{
+  background-color: rgba(164, 188, 164, 0.5);
+  color: black;
+  max-width: 20vw;
+
+
+}

@@ -1,0 +1,32 @@
+#prix{
+   height: 30vh;
+   max-height: 150px;
+   background-image: url("../Img/bg.jpeg");
+  background-repeat: repeat;
+  padding-top: 3.5vh;
+
+}
+
+#prixBox{
+   height: 80%;
+   padding-top: 2vh;
+   background-color: #c5cccc;
+   display: inline-block;
+   width: 60vw;
+   margin-left: 10vw;
+
+}
+#prixBox table{
+  width: 100%;
+  text-align: center;
+}
+#prixBox table td{
+  vertical-align: middle;
+  border: 9px solid #c5cccc;
+
+}
+#prixBox img{
+  height: 40px;
+  width: 40px;
+  padding: 2px;
+}
