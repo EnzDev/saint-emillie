@@ -16,3 +16,11 @@ a[class="right carousel-control"] {
   height: auto;
     margin: auto;
 }
+
+a[class="right carousel-control"]:not(:hover){
+  color: inherit;
+}
+
+a[class="left carousel-control"]:not(:hover){
+  color: inherit;
+}
