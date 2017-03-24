@@ -2,6 +2,9 @@
   background-color:#B5AC9D;
   text-align: left;
   height:30vh;
+  display:flex;
+  align-items: center;
+  vertical-align: middle;
 }
 #map{
   width: 25vh;
@@ -9,7 +12,8 @@
   height: 25vh;
   margin: 2.5vh;
 }
+
 #coordonnees{
-  width: auto;
-  margin: auto;
+  font-style: italic;
+  font-family: cursive;
 }

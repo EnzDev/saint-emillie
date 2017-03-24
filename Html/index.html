@@ -147,19 +147,28 @@
 	<script type="text/javascript">
 	       function initMap(){
 					var myLatLng = {lat: 47.6523237, lng: -1.7912815};
+					var infowindow = new google.maps.InfoWindow({
+						content: "<div>Votre bonheur<div>"
+					});
 
 	        var mapProp= {
 	            center:myLatLng,
 	            zoom:8,
-	          };
-	          map=new google.maps.Map(document.getElementById("map"),mapProp);
-
+          };
+          map=new google.maps.Map(document.getElementById("map"),mapProp);
+					var openinfo =false;
 					var marker = new google.maps.Marker({
-					position: myLatLng,
-					map: map,
-					title: 'Saint Emilie'
+						position: myLatLng,
+						map: map,
+						title: 'Saint Emilie'
 					});
-
+					marker.addListener('click', function() {
+						if(!openinfo)
+							infowindow.open(map, marker);
+						else
+							infowindow.close(map,marker);
+						openinfo = !openinfo;
+  				});
 				}
 
 	  </script>
