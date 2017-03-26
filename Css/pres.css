@@ -1,0 +1,21 @@
+#presBox{
+  background-color:#B5AC9D;
+  text-align: center;
+  height:30vh;
+  min-height: 300px;
+  margin-left: 10vw;
+  width: 60vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 3vh;
+  padding-bottom: : 3vh;
+  line-height: 200%;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+
+}
+#presBox h2{
+  text-align: left;
+  font-family: 'Bad Script', cursive;
+  line-height: 200%;
+}

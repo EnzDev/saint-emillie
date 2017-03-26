@@ -1,5 +1,6 @@
 #cheval, #dej{
   width: 35vw;
+
 }
 
 #cheval{
@@ -14,9 +15,52 @@
   width: 60vw;
 }
 .image_flottante div{
-  background-color: rgba(164, 188, 164, 0.5);
+  background-color: rgba(164, 188, 164, 0.9);
   color: black;
   max-width: 20vw;
+  text-align: center;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  position: absolute;
 
 
+}
+
+.image_flottante{
+  position: relative;
+  margin-bottom: 8vh;
+}
+#textcheval{
+   top:35px;
+   left: 37vw;
+   padding-left: 2vw;
+   padding-right: 2vw;
+    max-width: 20vw;
+
+}
+
+
+ #textdej{
+   width: 10vw;
+   min-width: 150px;
+   top:35px;
+   left: 30vw;
+}
+
+#textvelo1{
+    background-color: rgba(173, 175, 188, 0.9);
+    width: 60vw;
+    min-width: 500px;
+    top:-25px;
+    left: 8vw;
+}
+
+#textvelo2{
+  background-color: rgba(181, 174, 174, 0.9);
+  width: 70vw;
+  min-width: 700px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  bottom: -25px;
+  right: 5vw;
 }

@@ -1,9 +1,10 @@
-@media screen and (max-height: 1080px) and (max-width: 1080px)  {
+@media screen and (max-height: 1080px)   {
 
 #menuGauche{
 	position: fixed;
 	height: 100%;
 	width:20vw;
+	min-width: 200px;
 	background-color: #a4bca4;
 	text-align: center;
 	box-shadow: 1px 15px 10px #7c6653;
@@ -53,11 +54,11 @@ transition: .25s linear;
 
 
 #logo img{
-  width: 15vh;
-  height: 17vh;
+  width: 7vw;
+  height: 6vw;
 	max-width: 100px;
-	max-height: 200px;
-  padding-top: 3vh;
+	max-height: 150px;
+  margin-top: 3vh;
 
 }
 @media screen and (min-height: 1081px) {
@@ -69,7 +70,7 @@ transition: .25s linear;
 		top: 0px;
 		background-color: #a4bca4;
 		text-align: center;
-	
+
 
 	}
 

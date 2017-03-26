@@ -5,6 +5,9 @@
   display:flex;
   align-items: center;
   vertical-align: middle;
+  margin-left: 10vw;
+  width: 60vw;
+  line-height: 200%;
 }
 #map{
   width: 25vh;
