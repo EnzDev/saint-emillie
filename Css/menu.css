@@ -54,8 +54,8 @@ transition: .25s linear;
 
 
 #logo img{
-  width: 7vw;
-  height: 6vw;
+  width: 50%;
+  height: 10%;
 	max-width: 100px;
 	max-height: 150px;
   margin-top: 3vh;
