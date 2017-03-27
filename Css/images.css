@@ -3,19 +3,14 @@
 
 }
 
-#cheval{
-	margin-left: 7vw;
-}
-#dej{
-	margin-left: 37vw;
-}
+
 
 #velo{
-	margin-left: 10vw;
+	margin-left: 11.5vw;
   width: 60vw;
 }
 .image_flottante div{
-  background-color: rgba(164, 188, 164, 0.9);
+  background-color: rgba(164, 188, 164, 0.95);
   color: black;
   max-width: 20vw;
   text-align: center;
@@ -28,8 +23,20 @@
 
 .image_flottante{
   position: relative;
-  margin-bottom: 8vh;
+  margin-bottom: 10vh;
 }
+#cheval{
+	margin-left: 7vw;
+  margin-bottom: 0vh;
+}
+#dej{
+	margin-left: 37vw;
+
+}
+#boxCheval{
+  margin-bottom: 6vh;
+}
+
 #textcheval{
    top:35px;
    left: 37vw;
@@ -48,7 +55,7 @@
 }
 
 #textvelo1{
-    background-color: rgba(173, 175, 188, 0.9);
+    background-color: rgba(173, 175, 188, 0.95);
     width: 60vw;
     min-width: 500px;
     top:-25px;
@@ -56,7 +63,7 @@
 }
 
 #textvelo2{
-  background-color: rgba(181, 174, 174, 0.9);
+  background-color: rgba(181, 174, 174, 0.95);
   width: 70vw;
   min-width: 700px;
   padding-left: 2vw;

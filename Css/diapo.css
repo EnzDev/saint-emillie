@@ -4,7 +4,7 @@
     height: 100%;
     max-height: 100vh;
 
-  
+
 }
 
 
@@ -23,4 +23,27 @@ a[class="right carousel-control"]:not(:hover){
 
 a[class="left carousel-control"]:not(:hover){
   color: inherit;
+}
+
+#titre{
+	position:absolute;
+	display: flex;
+	width: 83vw;
+	left: 17vw;
+	height: 50vh;
+	z-index:99;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+
+}
+#titre h2{
+	font-size: 20vh;
+	font-family:'Tangerine';
+	color:rgba(241, 241, 226, 1);
+	text-shadow: 0px 2px 3px rgba(0,0,1,0.5);
+
+
+
 }

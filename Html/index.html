@@ -2,20 +2,26 @@
 <html>
 <head>
 	<title>Chambre d'hôtes Ste-Emilie</title>
+	<meta name="description" content="Un havre de paix en pleine campagne		au milieu d'un parc romantique de 2 hectares avec de nombreux arbres centenaires.
+		Situé entre Nantes et Rennes,		au pays des 3 rivières près de Guémené-Penfao en Loire-Atlantique.	Construit vers 1850, sous Napoleon III et à été restauré dans les détails de l'époque.." />
+		<meta name="keywords" content="Chambre d'hôtes,Chateau,Bretagne,Loire-Atlantique,Château,Hotel,Hôtel,Nantes,Romantique,Castle,France,Nature,Tranquilité,Rennes,Cavaliers,Cheval" />
+
 	<link rel="stylesheet" type="text/css" href="../Css/reset.css">
 	<link rel="stylesheet" type="text/css" href="../Css/Style.css">
 	<link rel="stylesheet" type="text/css" href="../Css/menu.css">
 	<link rel="stylesheet" type="text/css" href="../Css/diapo.css">
 	<link rel="stylesheet" type="text/css" href="../Css/map.css">
 	<link rel="stylesheet" type="text/css" href="../Css/pres.css">
-		<link rel="stylesheet" type="text/css" href="../Css/prix.css">
-				<link rel="stylesheet" type="text/css" href="../Css/images.css">
+	<link rel="stylesheet" type="text/css" href="../Css/prix.css">
+	<link rel="stylesheet" type="text/css" href="../Css/images.css">
+	<link rel="stylesheet" type="text/css" href="../Css/form.css">
 	<link rel="stylesheet" media="screen and (max-width: 800px)" href="../Css/Responsive.css" type="text/css" />
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bad+Script|PT+Serif|Tangerine" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nova+Oval" rel="stylesheet">
 
 </head>
 <body>
@@ -26,9 +32,8 @@
 	<ul id="menuPrincipal">
 		<li><a href="#diapo">Gallerie</a></li>
 		<li><a href="#presentation">Presentation</a></li>
-		<li><a href="#image">Environnement</a></li>
-		<li><a href="#prix">Réservations</a></li>
-		<li><a href="#contact">Accès & Contact </a></li>
+		<li><a href="#image">Services</a></li>
+		<li><a href="#prix">Réservations <br> &amp; <br>Contact </a></li>
 	</ul>
 
 
@@ -38,6 +43,7 @@
 
 <div id="container">
 		<section id="diapo">
+			<div id="titre"><h2>Sainte Emilie</h2></div>
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				  <!-- Indicators -->
 				  <ol class="carousel-indicators">
@@ -72,6 +78,8 @@
 			</section>
 
 	<section id="presentation"></section>
+
+	<div id="bgpres">
 		<div id="presBox">
 			<h2>Sainte Emillie</h2>
 			<p>Un havre de paix en pleine campagne
@@ -83,9 +91,16 @@
 				Construit vers 1850, sous Napoleon III et à été restauré dans les détails de l'époque.
 			</p>
 		</div>
+	</div>
+	<div class="image_flottante">
+		<img src="../Img/velo.jpg" alt="velo" id="velo">
+		<div id="textvelo1">A proximité:  randonnées dans la vallée du Don canoë, la pêche</div>
+		<div id="textvelo2">A 50 km: les plages de la Baule et de Piriac sur merles marais de Guérande,<br> la forêt de Brocéliande et ses légendes Arthuriennes, etc.. </div>
+	</div>
 
 	<section id="image">
-		<div class="image_flottante">
+
+		<div class="image_flottante" id="boxCheval">
 			<img src="../Img/cheval.jpeg" alt="cheval" id="cheval">
 			<div id="textcheval">Accueil cavalier:<br>
 				pâture clôturée, boxes, point d'eau
@@ -97,11 +112,7 @@
 
 			</div>
 		</div>
-		<div class="image_flottante">
-			<img src="../Img/velo.jpg" alt="velo" id="velo">
-			<div id="textvelo1">A proximité:  randonnées dans la vallée du Don canoë, la pêche</div>
-			<div id="textvelo2">A 50 km: les plages de la Baule et de Piriac sur merles marais de Guérande,<br> la forêt de Brocéliande et ses légendes Arthuriennes, etc.. </div>
-		</div>
+
 
 
 
@@ -127,7 +138,10 @@
 
 	</div>
 
+
+
 	</section>
+	<button id="button"> Reserver</button>
 
 
 	<section id="contact">
@@ -175,12 +189,12 @@
 	  </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLkPQqfXVFkNptERzCMyj0OSZzbQWm8Hc&callback=initMap"></script>
 
-
-
-
-
 	</section>
-</div>
+
+	 <div id="formulaire"></div>
+	<div id="formbg"></div>
+
+
 	<div id="pied">© 2012-2017 Sainte-Emillie</div>
 
 <script

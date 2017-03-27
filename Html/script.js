@@ -4,14 +4,22 @@ $('a').click(function(){
   }, 750);
 });
 $("#button").click(function(){
-  $("#form").css("display","block");
+  $("#formContainer").css("display","block");
   $("#formbg").css("display","block");
 });
 $("#annuler").click(function(){
-  $("#form").css("display","none");
+  $("#formContainer").css("display","none");
   $("#formbg").css("display","none");
+});
+$("#envoyer").click(function(){
+  $("#formContainer").css("display","none");
+  $("#formbg").css("display","none");
+  alert("Donénes enregistrées !");
 });
 $("#formbg").click(function(){
-  $("#form").css("display","none");
+  $("#formContainer").css("display","none");
   $("#formbg").css("display","none");
+
 });
+
+$("#formulaire").load("formulaire.html");

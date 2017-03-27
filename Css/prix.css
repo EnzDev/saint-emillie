@@ -11,10 +11,10 @@
 #prixBox{
    height: 80%;
    padding-top: 6vh;
-   background-color: #c5cccc;
+   background-color: rgba(197, 204, 205, 0.70);
    display: inline-block;
    width: 40vw;
-   margin-left: 20vw;
+   margin-left: 21.5vw;
 
 }
 #prixBox table{
@@ -25,7 +25,7 @@
 }
 #prixBox table td{
   vertical-align: middle;
-  border: 9px solid #c5cccc;
+  border: 9px solid rgba(197, 204, 205, 0);
 
 }
 #prixBox img{
