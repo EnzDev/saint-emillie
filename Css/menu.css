@@ -23,6 +23,9 @@ display: flex;
 align-content: center;
 flex-direction: column;
 flex-wrap: wrap;
+flex-basis: -moz-fit-content;
+flex-basis: -webkit-fit-content;
+align-items: center;
 }
 
 
@@ -35,10 +38,13 @@ flex-wrap: wrap;
 	text-decoration: none;
   color: #3d2e27;
 	transition: all 0.2s ease-in-out;
+	width: -moz-fit-content;
+	width: -webkit-fit-content;
+
 }
 #menuPrincipal li a:hover{
   color: #21130d;
-	
+
 
 }
 #menuPrincipal li a:before {
