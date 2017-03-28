@@ -10,18 +10,26 @@
 	box-shadow: 1px 15px 10px #7c6653;
 
 }
+
+#menuPrincipal {
+    height: calc( 97vh - 110px );
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 #menuPrincipal li{
-height: 15vh;
+display: flex;
+align-content: center;
+flex-direction: column;
+flex-wrap: wrap;
 }
 
 
 
 #menuPrincipal li a{
 	position: relative;
-	margin-top: 20px;
-	padding-top: 20px;
-  font-size: 2em;
-	width: 100%;
+	font-size: 2em;
   font-family: 'PT Serif', cursive;
 	display: block;
 	text-decoration: none;
